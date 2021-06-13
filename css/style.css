@@ -141,6 +141,21 @@ h1{
 .box .box-text{
     margin-bottom: 20px;
 }
+ul.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.menu li {
+    margin-left: 24px;
+}
+nav.menu-nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -149,11 +164,19 @@ h1{
 
 
 
-
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 864px){
     .container{
         padding: 0 16px;
     }
-    
+    .boxes{
+        flex-direction: column;
+    }
+    ul.menu{
+        flex-direction: column;
+        
+    }
+    .grid1{
+        height: 117px;
+    }
+
 }
