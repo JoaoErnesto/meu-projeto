@@ -193,6 +193,66 @@ textarea.input-form{
 
 }
 
+.banner-principal{
+    display: flex; 
+
+ 
+}
+.banner-1{
+    display: flex;
+    width: 533px;
+    height: 500px;
+}
+.banner-2{
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+.banner-3{
+    display: flex;
+    width: 495px;
+    height: 500px;
+}
+.banner-2 p{
+    color: white;
+    display: inline-table;
+    position: relative;
+    height: 26px;
+    width: 75px;
+    left: -52%;
+    top: 72%;
+}
+.banner-2 h2{
+    color: white;
+    display: inline-table;
+    position: relative;
+    height: 40px;
+    width: 164px;
+    left: -75%;
+    top: 78%;
+}
+.banner-image{
+    width: 439px;
+
+}
+.banner-grid{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+
+}
+.banner-1:hover{
+    zoom: 105%;
+}
+.banner-2:hover{
+    zoom: 105%;
+}
+.banner-3:hover{
+    zoom: 105%;
+}
 
 
 @media screen and (max-width: 864px){
