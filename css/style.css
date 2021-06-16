@@ -253,6 +253,48 @@ textarea.input-form{
 .banner-3:hover{
     zoom: 105%;
 }
+.row{
+    max-width: 1500px;
+    position: relative;
+    top: 100px;
+    
+}
+.row1{
+   width: 915px;
+   height: 1946px;
+    display: flex;
+    position: relative;
+    right: -125px;
+    
+}
+.col-1{
+    width: 457px;
+    
+}
+.card-1{
+    height: 700px;
+}
+.card-1 h2{
+    display: flex;
+    height: 67px;
+}
+.card-1 h1{
+    display: flex;
+    height: 46px;
+}
+img.card-image {
+    width: 437px;
+    padding-bottom: 41px;
+    display: flex;
+    right: -9px;
+    position: relative;
+}
+.card-2{
+    height: 800px;
+}
+img.card-image-1{
+    width: 100%;
+}
 
 
 @media screen and (max-width: 864px){
