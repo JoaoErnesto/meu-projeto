@@ -24,7 +24,7 @@
 }
 .grid1 h3{
     display: flex;
-    width: 7%;
+    width: 8%;
     font-family: fantasy;
     font-size: 31px;
     position: relative;
@@ -133,8 +133,12 @@ ul.menu {
     list-style-type: none;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
+    font-family: fantasy;
 }
-
+ul.menu li a{
+    color: black;
+}
 ul.menu li {
     margin-left: 24px;
 }
@@ -202,10 +206,12 @@ textarea.input-form{
     display: flex;
     width: 533px;
     height: 500px;
+    margin-right: 60px;
 }
 .banner-2{
     display: flex;
-    width: 500px;
+    width: 440px;
+    margin-right: 60px;
     height: 500px;
 }
 .banner-3{
@@ -219,7 +225,7 @@ textarea.input-form{
     position: relative;
     height: 26px;
     width: 75px;
-    left: -52%;
+    left: -60%;
     top: 72%;
 }
 .banner-2 h2{
@@ -228,7 +234,7 @@ textarea.input-form{
     position: relative;
     height: 40px;
     width: 164px;
-    left: -75%;
+    left: -84%;
     top: 78%;
 }
 .banner-image{
@@ -261,7 +267,7 @@ textarea.input-form{
 }
 .row1{
    width: 915px;
-   height: 1946px;
+   height: 2171px;
     display: flex;
     position: relative;
     right: -125px;
